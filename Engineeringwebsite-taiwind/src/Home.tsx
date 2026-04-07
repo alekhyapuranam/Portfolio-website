@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import { ProjectsCards } from "./projectcards"
 export function HomeComponent() {
 
     return (
@@ -51,12 +52,7 @@ export function HomeComponent() {
                     <div className="flex justify-center">
                         <img src="/arrow-image.png" alt="" className="size-8 my-0" />
                     </div>
-                    <div>
-                        <p>ChatBot Website using React & JS</p>
-                    </div>
-                    <div>
-                        <p>Ecommerce website (React & JS)</p>
-                    </div>
+                    <div className="flex gap-5"><ProjectsCards /></div>
 
                 </div>
 
