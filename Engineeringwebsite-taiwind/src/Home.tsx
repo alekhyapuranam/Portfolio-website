@@ -55,12 +55,12 @@ export function HomeComponent() {
                     <div className="text-2xl font-bold text-zinc">My Skills</div>
                     <div><img src="/arrow-image.png" alt="" className="size-8 my-0" /></div>
                     <div className="flex m-w-3xl gap-5 flex-wrap justify-center">
-                        <div className=" w-27 h-27 bg-darkpink px-8 py-5 flex items-center justify-center rounded-full text-white font-bold">HTML</div>
-                        <div className=" w-27 h-27 bg-darkpink px-8 py-5 flex items-center justify-center rounded-full text-white font-bold">Tailwind css</div>
-                        <div className=" w-27 h-27 bg-darkpink px-8 py-5 flex items-center justify-center rounded-full text-white font-bold">JavaScript</div>
-                        <div className=" w-27 h-27 bg-darkpink px-8 py-5 flex items-center justify-center rounded-full text-white font-bold">TypeScript</div>
-                        <div className=" w-27 h-27 bg-darkpink px-8 py-5 flex items-center justify-center rounded-full text-white font-bold">React</div>
-                        <div className=" w-27 h-27 bg-darkpink px-8 py-5 flex items-center justify-center rounded-full text-white font-bold">Java</div>
+                        <div className=" transition-transform duration-300  hover:scale-125 w-27 h-27 bg-darkpink px-8 py-5 flex items-center justify-center rounded-full text-white font-bold">HTML</div>
+                        <div className=" transition-transform duration-300  hover:scale-125 w-27 h-27 bg-darkpink px-8 py-5 flex items-center justify-center rounded-full text-white font-bold">Tailwind css</div>
+                        <div className=" transition-transform duration-300  hover:scale-125 w-27 h-27 bg-darkpink px-8 py-5 flex items-center justify-center rounded-full text-white font-bold">JavaScript</div>
+                        <div className=" transition-transform duration-300  hover:scale-125 w-27 h-27 bg-darkpink px-8 py-5 flex items-center justify-center rounded-full text-white font-bold">TypeScript</div>
+                        <div className=" transition-transform duration-300  hover:scale-125 w-27 h-27 bg-darkpink px-8 py-5 flex items-center justify-center rounded-full text-white font-bold">React</div>
+                        <div className=" transition-transform duration-300  hover:scale-125 w-27 h-27 bg-darkpink px-8 py-5 flex items-center justify-center rounded-full text-white font-bold">Java</div>
                     </div>
 
                 </div>
@@ -69,14 +69,14 @@ export function HomeComponent() {
                     <div className="flex justify-center">
                         <img src="/arrow-image.png" alt="" className="size-8 my-0" />
                     </div>
-                    <div className="overflow-hidden relative"> 
-                        <button onClick={prev} className={`absolute top-1/2 left-0 -translate-y-1/2 z-10 bg-darkpink text-white rounded-full  px-3 py-2 ${index === 0 ? 'opacity-50 cursor-not-allowed' : 'opacity-100'}`}>{"<"}</button>
-                        <button onClick={next} className={`absolute top-1/2 right-0 -translate-y-1/2 z-10 bg-darkpink text-white rounded-full px-3 py-2 ${index >= 1 ? 'opacity-50 cursor-not-allowed' : 'opacity-100'}`}>{">"}</button>
+                    <div className="overflow-hidden relative pt-6"> 
+                        <button onClick={prev} className={`absolute top-1/2 left-0 -translate-y-1/2 z-10 bg-arrowpink text-white rounded-full  px-3 py-2 ${index === 0 ? 'opacity-50 cursor-not-allowed' : 'opacity-100'}`}>{"<"}</button>
+                        <button onClick={next} className={`absolute top-1/2 right-0 -translate-y-1/2 z-10 bg-arrowpink text-white rounded-full px-3 py-2 ${index >= 1 ? 'opacity-50 cursor-not-allowed' : 'opacity-100'}`}>{">"}</button>
 
 
-                          <div className={`flex  items-center justify-content transition-transform duration-500 ease-in-out  gap-5`}
+                        <div className={`flex  items-center justify-content transition-transform duration-500 ease-in-out  gap-5`}
                           style={{transform: `translateX(-${index * 33.333}%)`}}>
-                            <ProjectsCards />
+                            <ProjectsCards  />
                             </div>
                     </div>
                   
@@ -88,6 +88,7 @@ export function HomeComponent() {
                 <div>
                     <div>LinkedIn</div>
                     <div>www.linkedin.com/in/alekhya-puranam</div>
+                    
 
 
                 </div>
