@@ -46,7 +46,7 @@ return(
               </div> 
                 <div className="absolute top-0 right-0 m-2 opacity-0 group-hover:opacity-100 transition-opacity  ">
                   <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
-                    <svg width="70px" height="70px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <svg width="50px" height="50px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                       <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                           <g id="Dribbble-Light-Preview" transform="translate(-140.000000, -7559.000000)" fill="#000000">
                               <g id="icons" transform="translate(56.000000, 160.000000)">

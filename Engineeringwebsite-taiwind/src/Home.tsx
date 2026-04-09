@@ -82,16 +82,15 @@ export function HomeComponent() {
                   
 
                 </div>
-
-            
-            <footer>
-                <div>
-                    <div>LinkedIn</div>
-                    <div>www.linkedin.com/in/alekhya-puranam</div>
-                    
-
-
+                <div className="contact-section flex items-center flex-col mt-10 gap-5">
+                <div className="text-2xl font-bold text-zinc">Contacts</div>
+                    <div><img src="/arrow-image.png" alt="" className="size-8 my-0" /></div>
                 </div>
+                <div className="flex justify-center gap-50 pt-6">
+                     <div>
+                        <div>LinkedIn</div>
+                        <div>www.linkedin.com/in/alekhya-puranam</div>
+                    </div>
                 <div>
                     <div>Email</div>
                     <div>alekhyapuranam99@gmail.com</div>
@@ -101,7 +100,10 @@ export function HomeComponent() {
                     <div>Phone Number</div>
                     <div>+64 0225030383</div>
                 </div>
-            </footer>
+                </div>
+
+            
+           
 
         </div>
            
