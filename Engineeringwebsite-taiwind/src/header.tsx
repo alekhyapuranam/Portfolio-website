@@ -25,7 +25,7 @@ export function HeaderComponent() {
                     <img src="/heroimage1.jpg" className=" w-full opacity-95 object-cover h-[500px]" />
 
             <nav  className=" absolute top-0 right-0  mr-5px">
-             <ul className="flex gap-5 py-3 pr-5 font-bold">
+             <ul className="flex gap-7 py-3 pr-5 font-bold">
 
              <li> <a href="#Aboutme" className="text-white ">About me</a></li>
                <li> <a href="#Skills" className="text-white ">Skills</a></li>
@@ -34,12 +34,14 @@ export function HeaderComponent() {
                 </ul>
                 </nav>               
                 
-                <div className="absolute text-[50px] text-white font-normal italic top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
+                <div className="absolute text-[50px] text-white flex flex-col justify-center items-center font-normal italic top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
+                   <div>
                     <span >Hi there! My name is Alekhya and I'm a</span>
                     <span className="text-darkpink font-semibold"> front-end Developer</span>
-                    <div className="ml-50 mt-7" >
+                    </div>
+                    <div  >
                         <button className="bg-darkpink rounded-full px-4 py-3 text-[30px]  transition-transform duration-300 hover:scale-110">
-                            <a href="/Alekhya_Resume.pdf" download className="text-white no-underline">
+                            <a href="/Alekhya_Puranam_Resume.pdf" download className="text-white no-underline">
                                 Download CV
                             </a>
                         </button>
