@@ -26,14 +26,14 @@ export function HomeComponent() {
         <div className="  max-w-6xl m-auto px-4">
             
           
-                <div id="Aboutme" className="Aboutme-section flex items-center flex-col gap-5 mt-10 ">
+                <div id="Aboutme" className="Aboutme-section flex items-center flex-col scroll-mt-[55px] gap-5 mt-10 ">
                     <div className="text-2xl font-bold text-zinc">About Me</div>
                     <div><img src="/arrow-image.png" alt="" className="size-8 my-0" /></div>
                     <div className="max-w-3xl text-center m-auto px-5">
                         <p>I am a motivated and detail-oriented Frontend Developer with a growing foundation in modern web technologies such as React, TypeScript, JavaScript, and Tailwind CSS. I enjoy building responsive and visually appealing user interfaces while continuously learning best practices in web development. I am currently focused on improving my technical skills through hands-on projects and practical experience. </p>
                     </div>
                 </div>
-                <div id="Skills" className="skills-section flex items-center flex-col  mt-10 gap-5">
+                <div id="Skills" className="skills-section flex items-center flex-col scroll-mt-[55px] mt-10 gap-5">
                     <div className="text-2xl font-bold text-zinc">My Skills</div>
                     <div><img src="/arrow-image.png" alt="" className="size-8 my-0" /></div>
                     <div className="flex m-w-3xl gap-5 flex-wrap justify-center">
@@ -46,7 +46,7 @@ export function HomeComponent() {
                     </div>
 
                 </div>
-                <div id="Projects" className="projects-section flex items-center flex-col mt-10 gap-5">
+                <div id="Projects" className="projects-section flex items-center flex-col  scroll-mt-[55px] mt-10 gap-5">
                     <div className="text-2xl font-bold text-zinc text-center">My Projects</div>
                     <div className="flex justify-center">
                         <img src="/arrow-image.png" alt="" className="size-8 my-0" />

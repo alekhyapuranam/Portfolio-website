@@ -51,9 +51,10 @@ export function HeaderComponent() {
                 
                 
             </header>
-             <div className={isScrolled ? "relative sticky top-0 z-50 opacity-100" : "relative sticky top-0 z-50 opacity-0"}>
+             <div className={isScrolled ? "relative sticky top-0 z-50 opacity-100 " : "relative sticky top-0 z-50 opacity-0"}>
                
-                    <img src="/heroimage1.jpg" className=" w-full opacity-100 object-cover h-[60px]" />
+                   {/* <img src="/heroimage1.jpg" className=" w-full opacity-100 object-cover h-[60px]" /> */}
+                    <div className=" w-full opacity-90 object-cover h-[55px] bg-darkpink"></div>
 
             <nav  className=" absolute top-0 right-0  mr-5px">
              <ul className="flex gap-5 py-3 pr-5 font-bold">
