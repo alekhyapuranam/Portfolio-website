@@ -6,15 +6,15 @@ import './index.css'
 
 
 createRoot(document.getElementById('root')!).render(
-  
+
   <StrictMode>
     <BrowserRouter basename='/Engineering-website'>
-    <App />
+      <App />
     </BrowserRouter>
-      
-      
-   
-    
+
+
+
+
   </StrictMode>
- 
+
 )

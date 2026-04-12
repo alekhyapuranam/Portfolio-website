@@ -3,29 +3,29 @@ import { ContactUs } from "./Contactus";
 import { HeaderComponent } from "./header";
 import { ProjectsCards } from "./projectcards";
 export function HomeComponent() {
-    const [index,setIndex]=useState(0);
-    function next(){
-        if(index<(4-3)){
-            setIndex(index+3);
+    const [index, setIndex] = useState(0);
+    function next() {
+        if (index < (4 - 3)) {
+            setIndex(index + 3);
 
         }
 
     }
-    function prev(){
-        if(index>0){
-            setIndex(index-3);
+    function prev() {
+        if (index > 0) {
+            setIndex(index - 3);
         }
 
     }
 
     return (
         <>
-         <HeaderComponent />
-           
+            <HeaderComponent />
 
-        <div className="  max-w-6xl m-auto px-4">
-            
-          
+
+            <div className="  max-w-6xl m-auto px-4">
+
+
                 <div id="Aboutme" className="Aboutme-section flex items-center flex-col scroll-mt-[55px] gap-5 mt-10 ">
                     <div className="text-2xl font-bold text-zinc">About Me</div>
                     <div><img src="/Engineering-website/arrow-image.png" alt="" className="size-8 my-0" /></div>
@@ -51,35 +51,35 @@ export function HomeComponent() {
                     <div className="flex justify-center">
                         <img src="/Engineering-website/arrow-image.png" alt="" className="size-8 my-0" />
                     </div>
-                    <div className="overflow-hidden relative pt-6"> 
+                    <div className="overflow-hidden relative pt-6">
                         <button onClick={prev} className={`absolute top-1/2 left-0 -translate-y-1/2 z-10 bg-arrowpink text-white rounded-full  px-3 py-2 ${index === 0 ? 'opacity-50 cursor-not-allowed' : 'opacity-100'}`}>{"<"}</button>
                         <button onClick={next} className={`absolute top-1/2 right-0 -translate-y-1/2 z-10 bg-arrowpink text-white rounded-full px-3 py-2 ${index >= 1 ? 'opacity-50 cursor-not-allowed' : 'opacity-100'}`}>{">"}</button>
 
 
                         <div className={`flex  items-center justify-content transition-transform duration-500 ease-in-out  gap-5`}
-                          style={{transform: `translateX(-${index * 33.333}%)`}}>
-                            <ProjectsCards  />
-                            </div>
+                            style={{ transform: `translateX(-${index * 33.333}%)` }}>
+                            <ProjectsCards />
+                        </div>
                     </div>
-                  
+
 
                 </div>
                 <div id="contacts" className="contact-section flex items-center flex-col mt-10 gap-5">
-                <div className="text-2xl font-bold text-zinc">Contacts</div>
+                    <div className="text-2xl font-bold text-zinc">Contacts</div>
                     <div><img src="/Engineering-website/arrow-image.png" alt="" className="size-8 my-0" /></div>
                 </div>
                 <div className="flex justify-center gap-50 pt-6">
                     <ContactUs />
                 </div>
 
-           
-           
 
-        </div>
-         <footer className="text-center mt-15  bg-darkpink  text-white ">© 2024 Alekhya Puranam. All rights reserved.
-                <a href="#top"  className="underline cursor-pointer ml-10">Back to Top</a>
+
+
+            </div>
+            <footer className="text-center mt-15  bg-darkpink  text-white ">© 2024 Alekhya Puranam. All rights reserved.
+                <a href="#top" className="underline cursor-pointer ml-10">Back to Top</a>
             </footer>
-           
+
         </>
     )
 }

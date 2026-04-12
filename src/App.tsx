@@ -6,19 +6,19 @@ import { HomeComponent } from './Home'
 
 
 function App() {
-  
+
 
   return (
     <>
-    <Routes>
-      <Route path='/'element={<HomeComponent/>}></Route>
-      
-    </Routes>
+      <Routes>
+        <Route path='/' element={<HomeComponent />}></Route>
 
-   
-    
+      </Routes>
+
+
+
     </>
-    
+
   )
 }
 
