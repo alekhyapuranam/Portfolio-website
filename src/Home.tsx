@@ -35,7 +35,7 @@ export function HomeComponent() {
                 </div>
                 <div id="Skills" className="skills-section flex items-center flex-col scroll-mt-[55px] mt-10 gap-5">
                     <div className="text-2xl font-bold text-zinc">My Skills</div>
-                    <div><img src="/arrow-image.png" alt="" className="size-8 my-0" /></div>
+                    <div><img src="/Engineering-website/arrow-image.png" alt="" className="size-8 my-0" /></div>
                     <div className="flex m-w-3xl gap-5 flex-wrap justify-center">
                         <div className=" transition-transform duration-300  hover:scale-125 w-27 h-27 bg-darkpink px-8 py-5 flex items-center justify-center rounded-full text-white font-bold">HTML</div>
                         <div className=" transition-transform duration-300  hover:scale-125 w-27 h-27 bg-darkpink px-8 py-5 flex items-center justify-center rounded-full text-white font-bold">Tailwind css</div>
