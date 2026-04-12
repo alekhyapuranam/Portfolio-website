@@ -22,7 +22,7 @@ export function HeaderComponent() {
          <header id="top"  >
             <div className="relative">
                
-                    <img src="/heroimage1.jpg" className=" w-full opacity-95 object-cover h-[500px]" />
+                    <img src="/Engineering-website/heroimage1.jpg" className=" w-full opacity-95 object-cover h-[500px]" />
 
             <nav  className=" absolute top-0 right-0  mr-5px">
              <ul className="flex gap-7 py-3 pr-5 font-bold">
