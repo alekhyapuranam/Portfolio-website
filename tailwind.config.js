@@ -9,6 +9,9 @@ export default {
       colors: {
         rose: '#ef4444',
       },
+      screens: {
+        cardscreen: "570px",
+      },
     },
   },
   plugins: [],

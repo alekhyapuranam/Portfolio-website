@@ -43,7 +43,7 @@ export function ProjectsCards() {
     return (
         <>
             {projects.map((project) => (
-                <div key={project.id} className="group w-[calc((100%-2.5rem)/3)] h-90 transition-transform duration-300 hover:-translate-y-4 hover:shadow-2xl flex-shrink-0 bg-lightpink rounded-lg shadow-md  flex flex-col items-center gap-3  ">
+                <div key={project.id} className="group w-[calc((100%-2.5rem)/1)] cardscreen:w-[calc((100%-2.5rem)/2)] sm:w-[calc((100%-2.5rem)/2)] lg:w-[calc((100%-2.5rem)/3)] h-90 transition-transform duration-300 hover:-translate-y-4 hover:shadow-2xl flex-shrink-0 bg-lightpink rounded-lg shadow-md  flex flex-col md:items-center md:justify-center gap-3  ">
                     <div className="h-3/4 w-full relative">
                         <img src={project.image} alt={project.title} className="h-full w-full object-cover rounded-lg" />
                         <div className="opacity-0 absolute group-hover:opacity-100 transition-opacity bg-white/60 inset-0 "></div>
