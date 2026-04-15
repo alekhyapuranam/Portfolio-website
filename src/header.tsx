@@ -22,7 +22,7 @@ export function HeaderComponent() {
             <header id="top"  >
                 <div className="relative">
 
-                    <img src="/Engineering-website/heroimage1.jpg" className=" w-full opacity-95 object-cover h-[200px] md:h-[300px] lg:h-[500px] xl:h-[600px] 2xl:h-[700px]" />
+                    <img src="/Portfolio-website/heroimage1.jpg" className=" w-full opacity-95 object-cover h-[200px] md:h-[300px] lg:h-[500px] xl:h-[600px] 2xl:h-[700px]" />
 
                     <nav className={isScrolled? "fixed top-0 right-0 absolute opacity-100 bg-darkpink/90 w-full z-50" : " absolute top-0 right-0  mr-5px" } >
                         <ul className="flex gap-7 py-3 pr-5 font-bold justify-end text-sm sm:text-md md:text-lg lg:text-xl">
