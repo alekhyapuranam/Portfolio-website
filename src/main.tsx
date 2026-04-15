@@ -8,7 +8,7 @@ import './index.css'
 createRoot(document.getElementById('root')!).render(
 
   <StrictMode>
-    <BrowserRouter basename='/Engineering-website'>
+    <BrowserRouter basename='/Portfolio-website'>
       <App />
     </BrowserRouter>
 
