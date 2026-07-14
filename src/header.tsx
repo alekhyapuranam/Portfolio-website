@@ -41,7 +41,7 @@ export function HeaderComponent() {
                         </div>
                         <div  >
                             <button className="bg-darkpink rounded-full px-4 py-3 text-sm sm:text-md md:text-[24px] lg:text-[30px]  transition-transform duration-300 hover:scale-110">
-                                <a href="/Alekhyap.pdf" download className="text-white no-underline">
+                                <a href="/AlekhyaP.pdf" download className="text-white no-underline">
                                     Download CV
                                 </a>
                             </button>
