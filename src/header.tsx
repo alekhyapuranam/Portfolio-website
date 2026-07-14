@@ -40,11 +40,13 @@ export function HeaderComponent() {
                             <span className="text-darkpink font-semibold"> front-end Developer</span>
                         </div>
                         <div  >
-                            <button className="bg-darkpink rounded-full px-4 py-3 text-sm sm:text-md md:text-[24px] lg:text-[30px]  transition-transform duration-300 hover:scale-110">
-                                <a href="/AlekhyaP.pdf" download className="text-white no-underline">
+                            <div>
+  <button className="bg-darkpink rounded-full px-4 py-3 text-sm sm:text-md md:text-[24px] lg:text-[30px]  transition-transform duration-300 hover:scale-110">
+                                <a href={`${import.meta.env.BASE_URL}AlekhyaP.pdf`} download className="text-white no-underline">
                                     Download CV
                                 </a>
                             </button>
+</div>
                         </div>
 
                     </div>
